@@ -1,0 +1,35 @@
+body {
+    width: 300px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+h1, h2 {
+    text-align: center;
+    display: block;
+    font-size: 1.4em;
+    margin: 10px auto;
+}
+
+img {
+    margin: 5px;
+    border: 2px solid black;
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+}
+
+button {
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    width: 200px;
+}
+
+#throbber {
+    width: 24px;
+    height: 24px;
+    background: url(/images/loading2.gif) no-repeat;
+    visibility: hidden;
+    margin: 0 auto;
+}

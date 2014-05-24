@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "JIRA instant story populator",
+    "description": "This extension allows to add prefefined subtasks to currently open JIRA ticket with one click.",
+    "version": "1.2",
+
+    "permissions": [
+        "tabs",
+        "https://wikia-inc.atlassian.net/"
+    ],
+    "browser_action": {
+        "default_icon": "/images/pirate.png",
+        "default_popup": "/popup.html"
+    }
+}
